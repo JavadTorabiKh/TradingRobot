@@ -18,12 +18,16 @@
 | Dynamic Pricing | Adaptive to volatility changes |
 | Inventory Balancing | Auto-rebalancing algorithm |
 
+---
+
 ### Alternative Strategies
 ```mermaidpie
-    title Strategy Distribution
-    "Market Making" : 45
-    "Statistical Arbitrage" : 25
-    "Trend Following" : 20
-    "Mean Reversion" : 10
+  title Strategy Distribution
+  "Market Making" : 45
+  "Statistical Arbitrage" : 25
+  "Trend Following" : 20
+  "Mean Reversion" : 10
+```
 
+---
 
