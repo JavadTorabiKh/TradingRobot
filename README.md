@@ -87,9 +87,19 @@
 | Emergency Protocols    |  Kill Switch   |
 
 ---
-### ⚠ Critical Disclaimer
 
-<div class="alert" style="background-color: #ffebee; padding: 15px; border-radius: 5px; border-left: 4px solid #f44336;"> <strong style="color: #d32f2f;">WARNING:</strong> This software is provided for <strong>educational purposes only</strong>. Trading financial instruments carries substantial risk. The developers assume <strong>no liability</strong> for any financial losses incurred. </div>
+### ⚠️ Critical Disclaimer
+
+<div style="background-color: #fff3e0; border-left: 4px solid #ffa000; padding: 12px; margin: 16px 0; border-radius: 4px;">
+
+🔥 **Important Notice** 🔥
+
+1. This is **not financial advice**
+2. Always test strategies in sandbox mode first
+3. Never risk more than you can afford to lose
+4. Consult a licensed financial advisor before trading
+
+</div>
 
 ---
 
