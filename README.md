@@ -115,4 +115,4 @@
 
 ### 📬 Contact
 For professional inquiries:
-https://img.shields.io/badge/Email-contact%2540domain.com-blue
+javadtorabi462@gmail.com
