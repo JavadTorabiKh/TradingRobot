@@ -19,8 +19,7 @@
 | Inventory Balancing | Auto-rebalancing algorithm |
 
 ### Alternative Strategies
-```mermaid
-pie
+```mermaidpie
     title Strategy Distribution
     "Market Making" : 45
     "Statistical Arbitrage" : 25
