@@ -60,14 +60,14 @@
 
 ### 🛠 Tech Stack
 
-```graph TD
+graph TD
   A[Python 3.10+] --> B[Backtrader]
   A --> C[Pandas/Numpy]
   A --> D[CCXT Pro]
   B --> E[Backtesting]
   C --> F[Data Analysis]
   D --> G[Exchange Connectivity]
-```
+
 
 ---
 
