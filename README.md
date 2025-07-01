@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 <div align="center">
-  <img src="[https://github.com/your-repo/logo/raw/main/bot-icon.png](https://user-images.githubusercontent.com/5384715/92353318-4f2e5b00-f0e0-11ea-8879-9ecb987ea4e2.jpg)" width="150" alt="Bot Icon">
+  <img src="[https://github.com/your-repo/logo/raw/main/bot-icon.png](https://user-images.githubusercontent.com/5384715/92353318-4f2e5b00-f0e0-11ea-8879-9ecb987ea4e2.jpg" width="150" alt="Bot Icon">
 </div>
 
 ## 🔍 Core Strategy Architecture
