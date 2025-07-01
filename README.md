@@ -116,7 +116,7 @@
     if volatility > max_threshold:
         cancel_all_orders()
         enable_safety_mode()
-  ‍‍```
+  ```
 
 ---
 
