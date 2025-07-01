@@ -58,15 +58,22 @@
 
 ---
 
-### 🛠 Tech Stack
+### 🛠 Tech Stack  
 
-graph TD
-  A[Python 3.10+] --> B[Backtrader]
-  A --> C[Pandas/Numpy]
-  A --> D[CCXT Pro]
-  B --> E[Backtesting]
-  C --> F[Data Analysis]
-  D --> G[Exchange Connectivity]
+**🧠 Core Languages & Frameworks:**  
+- <img src="https://img.icons8.com/color/48/000000/python.png" width="16"/> **Python 3.10+** (Backtrader, Pandas, NumPy)  
+- <img src="https://img.icons8.com/color/48/000000/javascript.png" width="16"/> **CCXT Pro** (Exchange Connectivity)  
+- <img src="https://img.icons8.com/color/48/000000/docker.png" width="16"/> **Docker** (Containerization)  
+
+**📊 Data & Analytics:**  
+- **Pandas** (Data Manipulation)  
+- **NumPy** (Numerical Computing)  
+- **Matplotlib/Seaborn** (Visualization)  
+
+**⚡ Performance & Scalability:**  
+- **Asyncio** (Async Execution)  
+- **Redis** (Caching & Pub/Sub)  
+- **Celery** (Task Queue)  
 
 
 ---
