@@ -105,8 +105,8 @@
 
 ### 🛠 Installation
 ```bash
-  git clone https://github.com/your-repo/algo-engine.git
-  cd algo-engine
+  git clone https://github.com/JavadTorabiKh/TradingRobot.git
+  cd TradingRobot
   pip install -e .
 ```
 ---
