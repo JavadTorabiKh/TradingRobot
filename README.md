@@ -25,5 +25,5 @@
     "Statistical Arbitrage" : 25
     "Trend Following" : 20
     "Mean Reversion" : 10
-‍‍```
+
 
