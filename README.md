@@ -112,11 +112,11 @@
 
 **Solution:**
 - Circuit breakers with multiple trigger thresholds:
-```python
-  if volatility > max_threshold:
-      cancel_all_orders()
-      enable_safety_mode()
-‍‍```
+  ```python
+    if volatility > max_threshold:
+        cancel_all_orders()
+        enable_safety_mode()
+  ‍‍```
 
 ---
 
