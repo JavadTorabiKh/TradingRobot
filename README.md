@@ -88,9 +88,41 @@
 
 ---
 
+## 🛡️ Risk Management in Market Making
+
+### 1️⃣ Slippage Protection
+**Risk:** Rapid market movements may cause orders to execute at unfavorable prices.
+
+**Solution:** 
+- Place orders closer to current market prices
+- Implement price tolerance checks
+- Use time-weighted average price (TWAP) strategies
+
+### 2️⃣ Front-Running Prevention
+**Risk:** Sophisticated traders may detect and exploit your order patterns.
+
+**Solution:**
+- Randomized order sizes
+- Iceberg orders (hidden liquidity)
+- Dynamic timing intervals
+- Mix with other order types (e.g., pegged orders)
+
+### 3️⃣ Black Swan Event Preparedness
+**Risk:** Extreme market movements (flash crashes/pumps) can trigger catastrophic losses.
+
+**Solution:**
+- Circuit breakers with multiple trigger thresholds:
+```python
+  if volatility > max_threshold:
+      cancel_all_orders()
+      enable_safety_mode()
+‍‍```
+
+---
+
 ### ⚠️ Critical Disclaimer
 
-<div style="background-color: #fff3e0; border-left: 4px solid #ffa000; padding: 12px; margin: 16px 0; border-radius: 4px;">
+<div style="background-color: #eeb75eff; border-left: 4px solid #ff4800ff; padding: 12px; margin: 16px 0; border-radius: 4px;">
 
 🔥 **Important Notice** 🔥
 
