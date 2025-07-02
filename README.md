@@ -34,7 +34,7 @@
 ### 🏗 Project Structure
 
 ```bash
-  algo-engine/
+  TradingRobot/
   ├── 📂 config/
   │   ├── 🔒 auth_config.enc
   │   └── 📄 market_params.toml
@@ -48,12 +48,14 @@
   │   └── 🧠 strategies/
   │       ├── mm_strategy.py
   │       └── ar_strategy.py
+  ├── 📂 static/
   ├── 📂 infrastructure/
   │   ├── 📡 data_feeds/
   │   └── 📊 monitoring/
   └── 📂 tests/
       ├── 🧪 unit/
       └── 🧩 integration/
+      
 ```
 
 ---
