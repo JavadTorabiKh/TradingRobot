@@ -1,0 +1,17 @@
+# Sample
+[exchange.binance]
+api_key = "your_api_key_here"
+api_secret = "your_api_secret_here"
+passphrase = "for_derivatives_exchanges"  # Exchange
+
+[exchange.kucoin]
+api_key = ""
+api_secret = ""
+passphrase = ""
+
+[telegram]
+bot_token = ""
+chat_id = ""
+
+[other_services]
+api_key = ""
