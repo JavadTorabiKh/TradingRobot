@@ -1,0 +1,12 @@
+[general]
+max_position_size = 0.02  # 2% rule
+default_leverage = 3
+
+[market_making]
+spread_multiplier = 1.5
+inventory_skew_threshold = 0.3
+volatility_window = 30  # minutes
+
+[risk]
+max_daily_loss = -0.05  # -5%
+circuit_breaker_thresholds = [0.1, 0.2, 0.3]  # volatility thresholds
