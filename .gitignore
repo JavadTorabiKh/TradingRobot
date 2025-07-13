@@ -1,3 +1,8 @@
+*.log          # Ignore all log files
+config/config.json  # Ignore config file with sensitive data
+__pycache__/   # Ignore Python cache directories
+*.pyc          # Ignore compiled Python files
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
