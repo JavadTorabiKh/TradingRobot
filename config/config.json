@@ -1,10 +1,10 @@
 {
-    "exchange": "binance",      // Exchange name (supported by CCXT)
-    "symbol": "BTC/USDT",       // Trading pair symbol
-    "api_key": "your_api_key_here",     // API key for exchange authentication
-    "api_secret": "your_api_secret_here",  // API secret for exchange authentication
-    "spread": 0.002,           // Bid/ask spread percentage (0.2%)
-    "order_size": 0.01,         // Base order size in base currency (BTC)
-    "max_orders": 5,            // Number of orders to place on each side
-    "refresh_interval": 60      // Order refresh interval in seconds
+    "exchange": "binance",      
+    "symbol": "BTC/USDT",      
+    "api_key": "your_api_key_here",     
+    "api_secret": "your_api_secret_here",  
+    "spread": 0.002,           
+    "order_size": 0.01,       
+    "max_orders": 5,         
+    "refresh_interval": 60   
 }

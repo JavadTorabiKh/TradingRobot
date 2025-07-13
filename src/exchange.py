@@ -9,7 +9,7 @@ class ExchangeWrapper:
     Handles all exchange communication and order management
     """
 
-    def __init__(self, config_file='../config/config.json'):
+    def __init__(self, config_file='./config/config.json'):
         """Initialize exchange connection with config"""
         with open(config_file) as f:
             self.config = json.load(f)  # Load configuration

@@ -7,7 +7,7 @@ class MarketMaker:
     Calculates order prices and sizes based on market conditions
     """
 
-    def __init__(self, exchange, config_file='../config/config.json'):
+    def __init__(self, exchange, config_file='./config/config.json'):
         """Initialize with exchange instance and config"""
         self.exchange = exchange  # ExchangeWrapper instance
         with open(config_file) as f:

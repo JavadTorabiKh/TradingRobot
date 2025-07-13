@@ -4,7 +4,7 @@ import time
 
 
 class ExchangeWrapperMock:
-    def __init__(self, config_file='../config/config.json'):
+    def __init__(self, config_file='./config/config.json'):
         self.config = {
             "symbol": "BTC/USDT",
             "refresh_interval": 60

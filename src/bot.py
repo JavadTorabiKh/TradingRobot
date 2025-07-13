@@ -6,7 +6,7 @@ from market_maker import MarketMaker
 
 # Configure logging
 logging.basicConfig(
-    filename='../logs/bot.log',  # Log file location
+    filename='./logs/bot.log',  # Log file location
     level=logging.INFO,          # Logging level
     format='%(asctime)s - %(levelname)s - %(message)s'  # Log format
 )
