@@ -50,7 +50,7 @@
   ├── 📄 requirements.txt         # Python dependencies
   ├── 📄 README.md                # Quick start guide
   ├── 📄 LICENSE                  # LICENSE
-  └── 📄 .gitignore               # Git ignore file    
+  └── 📄 .gitignore               # Gitignore file    
 ```
 
 ---
