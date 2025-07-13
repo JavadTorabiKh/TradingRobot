@@ -1,5 +1,5 @@
 {
-    "exchange": "",      // Exchange name (supported by CCXT)
+    "exchange": "binance",      // Exchange name (supported by CCXT)
     "symbol": "BTC/USDT",       // Trading pair symbol
     "api_key": "your_api_key_here",     // API key for exchange authentication
     "api_secret": "your_api_secret_here",  // API secret for exchange authentication

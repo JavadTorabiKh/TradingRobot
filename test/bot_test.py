@@ -1,8 +1,8 @@
 import json
 import time
 import logging
-from exchange import ExchangeWrapper
-from market_maker import MarketMaker
+from exchange_test import ExchangeWrapperMock
+from market_maker_test import MarketMaker
 
 # Configure logging
 logging.basicConfig(
@@ -16,7 +16,7 @@ def main():
     """Main execution function for the trading bot"""
     try:
         # Initialize exchange connection
-        exchange = ExchangeWrapper()
+        exchange = ExchangeWrapperMock()
         # Initialize market making strategy
         market_maker = MarketMaker(exchange)
 

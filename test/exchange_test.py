@@ -1,71 +1,31 @@
-import ccxt
-import json
+# src/exchange_mock.py
+import random
 import time
 
 
-class ExchangeWrapper:
-    """
-    CCXT Exchange Wrapper Class
-    Handles all exchange communication and order management
-    """
-
+class ExchangeWrapperMock:
     def __init__(self, config_file='../config/config.json'):
-        """Initialize exchange connection with config"""
-        with open(config_file) as f:
-            self.config = json.load(f)  # Load configuration
-
-        # Initialize CCXT exchange instance
-        self.exchange = getattr(ccxt, self.config['exchange'])({
-            'apiKey': self.config['api_key'],
-            'secret': self.config['api_secret'],
-            'enableRateLimit': True  # Enable rate limiting
-        })
-        self.symbol = self.config['symbol']  # Trading pair
+        self.config = {
+            "symbol": "BTC/USDT",
+            "refresh_interval": 60
+        }
+        self.current_price = 50000  # Price
 
     def get_market_price(self):
-        """
-        Fetch current market price
-        Returns:
-            float: Last traded price or None if error occurs
-        """
-        try:
-            ticker = self.exchange.fetch_ticker(self.symbol)
-            return ticker['last']  # Return last traded price
-        except Exception as e:
-            print(f"Error getting price: {e}")
-            time.sleep(5)  # Wait before retry
-            return None
+        """ Simolation network """
+        self.current_price *= (1 + random.uniform(-0.005,
+                               0.005))  # ±0.5%
+        return round(self.current_price, 2)
 
     def place_orders(self, bids, asks):
-        """
-        Place limit orders on exchange
-        Args:
-            bids: List of (price, amount) tuples for buy orders
-            asks: List of (price, amount) tuples for sell orders
-        Returns:
-            bool: True if orders placed successfully, False otherwise
-        """
-        try:
-            # Cancel all existing orders first
-            self.exchange.cancel_all_orders(self.symbol)
+        """ Simolation order """
 
-            # Place new buy orders
-            for price, amount in bids:
-                self.exchange.create_limit_buy_order(
-                    self.symbol,
-                    amount,
-                    price
-                )
-
-            # Place new sell orders
-            for price, amount in asks:
-                self.exchange.create_limit_sell_order(
-                    self.symbol,
-                    amount,
-                    price
-                )
-
-            return True
-        except Exception as e:
-            print(f"Error placing orders: {e}")
-            return False
+        print("\n--- Orders Placed ---")
+        print(f"Current Price: {self.current_price:.2f}")
+        print("Bids (Buy Orders):")
+        for price, amount in bids:
+            print(f"  {amount} BTC @ {price:.2f}")
+        print("Asks (Sell Orders):")
+        for price, amount in asks:
+            print(f"  {amount} BTC @ {price:.2f}")
+        return True
