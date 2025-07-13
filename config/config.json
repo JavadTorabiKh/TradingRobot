@@ -1,0 +1,8 @@
+{
+    "exchange": "",      // Exchange name
+    "symbol": "BTC/USDT",       // Trading pair
+    "api_key": "your_key",      // API credentials
+    "api_secret": "your_secret",
+    "spread": 0.002,           // Bid/ask spread percentage
+    "order_size": 0.01         // Base order amount
+}
