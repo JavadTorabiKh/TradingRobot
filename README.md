@@ -47,10 +47,15 @@
   │   ├── 📄 market_maker.py      # Simple market making logic
   │   └── 📄 exchange.py          # Exchange connectivity (CCXT Wrapper)
   │
+  ├── 📂 test/                     # Source code directory
+  │   ├── 📄 bot_test.py               # Main bot execution file
+  │   ├── 📄 market_maker_test.py      # Simple market making logic
+  │   └── 📄 exchange_test.py          # Exchange connectivity (CCXT Wrapper)
+  │
   ├── 📄 requirements.txt         # Python dependencies
   ├── 📄 README.md                # Quick start guide
   ├── 📄 LICENSE                  # LICENSE
-  └── 📄 .gitignore               # Git ignore file    
+  └── 📄 .gitignore               # Gitignore file    
 ```
 
 ---

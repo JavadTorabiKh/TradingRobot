@@ -1,0 +1,1 @@
+ccxt==4.2.18  # CCXT library for exchange connectivity
