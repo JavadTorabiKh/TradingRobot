@@ -35,27 +35,22 @@
 
 ```bash
   TradingRobot/
-  ├── 📂 config/
-  │   ├── 🔒 auth_config.enc
-  │   └── 📄 market_params.toml
-  ├── 📂 core/
-  │   ├── ⚡ execution/
-  │   │   ├── order_router.py
-  │   │   └── smart_execution.py
-  │   ├── 🛡️ risk/
-  │   │   ├── exposure_manager.py
-  │   │   └── circuit_breakers.py
-  │   └── 🧠 strategies/
-  │       ├── mm_strategy.py
-  │       └── ar_strategy.py
+  ├── 📂 config/                  # Configuration files
+  │   └── 📄 config.json          # Base settings (API Keys, symbols, parameters)
+  │
+  ├── 📂 logs/                    # Execution logs storage
+  │   └── 📄 bot.log              # Bot activity log file
+  │
   ├── 📂 static/
-  ├── 📂 infrastructure/
-  │   ├── 📡 data_feeds/
-  │   └── 📊 monitoring/
-  └── 📂 tests/
-      ├── 🧪 unit/
-      └── 🧩 integration/
-      
+  ├── 📂 src/                     # Source code directory
+  │   ├── 📄 bot.py               # Main bot execution file
+  │   ├── 📄 market_maker.py      # Simple market making logic
+  │   └── 📄 exchange.py          # Exchange connectivity (CCXT Wrapper)
+  │
+  ├── 📄 requirements.txt         # Python dependencies
+  ├── 📄 README.md                # Quick start guide
+  ├── 📄 LICENSE                  # LICENSE
+  └── 📄 .gitignore               # Git ignore file    
 ```
 
 ---
@@ -75,7 +70,6 @@
 **⚡ Performance & Scalability:**  
 - **Asyncio** (Async Execution)  
 - **Redis** (Caching & Pub/Sub)  
-- **Celery** (Task Queue)  
 
 
 ---
