@@ -8,7 +8,7 @@ from market_maker_test import MarketMaker
 logging.basicConfig(
     filename='./logs/bot.log',  # Log file location
     level=logging.INFO,          # Logging level
-    format='%(asctime)s - %(levelname)s - %(message)s - testnet'  # Log format
+    format='%(asctime)s - %(levelname)s - %(message)s'  # Log format
 )
 
 
